@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+* {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  position: absolute;
+}
+
+body {
+  background-color: #121214;
+  color: #E1E1E6;
+}
+
+.logo {
+  position: absolute;
+  width: 50vh;
+  padding-top: 1.25rem;
+  padding-left: 1.87rem;
+}
+
+.texto {
+  padding-top: 3.12rem;
+  margin-left: 0.62rem;
+}
+
+.foto {
+  display: flex;
+  height: 100vh;
+  width: 115vh;
+  object-fit: cover;
+}
+
+.box1 {
+  position: relative;
+  width: 10vh;
+  height: 16vh;
+  left: 106vh;
+}
+
+h1 {
+  color: #04D361;
+  margin-left: 1.25rem;
+  padding-bottom: 0.62;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin-left: 1.25rem;
+  padding-bottom: 0.62rem;
+  color: #FFFFFF;
+  font-family: 'Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.87rem;
+  line-height: 1rem;
+}
+
+button {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #8757e5;
+  height: 2.68rem;
+  width: 3.1rem;
+  border: #E1E1E6 1px solid;
+  top: 0.5rem;
+}
+
+
+label {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.62rem;
+  font-family: 'Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 1.18rem;
+}
+
+input {
+  position: relative;
+  font-weight: 500;
+  width: 50%;
+  height: 2.5rem;
+  margin-right: -2.6px;
+  border: #E1E1E6 1px solid;
+}
+
+
+form {
+  margin-left: 1.87rem;
+  color: #FFFFFF;
+}
+
+a {
+  display: flex;
+  margin-left: 0.62rem;
+  padding-top: 0.93rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.seta {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.62rem;
+}
+
+#algo {
+  font-family: 'Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 1.18rem;
+}
+
+p {
+  display: flex;
+  position: relative;
+  font-weight: 600;
+  padding-top: 1.25rem;
+  margin-left: 1.25rem;
+}
